@@ -10,7 +10,7 @@ Ex: localhost:3000/100
 
 ## Utilização
 Para se trabalhar neste projeto, é necessário ter instalado:
--Java 1.8
--Maven 4.0
+- Java 1.8
+- Maven 4.0
 
 O pom.xml do projeto já está configurado para compilar e gerar os pacotes, de modo que basta executa-lo após uma atualização. No entanto, ele ainda não dispara o teste automatizado, pois o plugin maven-assembly utiliza uma versão antiga do surefire, que não executa testes construídos com o JUnit 5.
