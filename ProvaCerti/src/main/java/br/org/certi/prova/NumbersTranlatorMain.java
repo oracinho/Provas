@@ -27,14 +27,14 @@ public class NumbersTranlatorMain {
 	public static void main (String[] args) {
 		NumbersTranlatorMain app = new NumbersTranlatorMain();
 		if (args.length == 0) {
-			System.out.println("Parâmetros incorretos. Informar o número da porta através do comando 'java -jar ProvaCerti.jar NNNN'");
+			System.out.println("Parâmetros incorretos. É esperado que o número da porta seja informado.");
 			return;
 		}
 		int port = 0;
 		try {
 			port = Integer.parseInt(args[0]);
 		}catch (Exception e) {
-			System.out.println("Parâmetros incorretos. Informar o número da porta através do comando 'java -jar ProvaCerti.jar NNNN'");
+			System.out.println("Parâmetros incorretos. É esperado que o número da porta seja informado.");
 			return;
 		}
 			

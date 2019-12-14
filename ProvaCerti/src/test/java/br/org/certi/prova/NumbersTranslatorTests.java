@@ -4,19 +4,17 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import br.org.certi.prova.NumbersTranslator;
-
 /**
  * Realiza testes unitários dos resultados das conversões
  */
-class NumbersTranslatorTests {
+public class NumbersTranslatorTests {
 	
 	NumbersTranslator converter = new NumbersTranslator();
 
 	@Test
 	void validPositiveNumbers() {
 		assertEquals("zero", converter.translateNumber("0"));
-		assertEquals("um", converter.translateNumber("1"));
+		assertEquals("u", converter.translateNumber("1"));
 		assertEquals("dois", converter.translateNumber("2"));
 		assertEquals("três", converter.translateNumber("00003"));
 		assertEquals("dez", converter.translateNumber("10"));
